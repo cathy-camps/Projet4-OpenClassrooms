@@ -18,14 +18,14 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
+/*#page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
+}*/
 
 .bloc {
     width: 100%;
@@ -37,6 +37,18 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+}
+
+/* title2.png*/
+.col-sm-12 img{
+    width: 476 px;
+    height: 100px;
+}
+
+/*title.png*/
+.row .col-sm-12 img{
+    width: 634px;
+    height:75px;
 }
 
 .bloc .container {
@@ -157,50 +169,9 @@ a:hover {
     background: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .btn-wire,
-.d-bloc .btn-wire:hover {
-    color: rgba(255, 255, 255, 1);
-    border-color: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
-}
-
-.d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, .7);
-}
-
-.d-bloc .panel icon {
-    border-color: rgba(0, 0, 0, .7);
-}
-
-.d-bloc .panel .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
-}
-
-.d-bloc .panel .a-btn {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .a-btn:hover {
-    color: rgba(0, 0, 0, 1);
-}
-
-.d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
-}
-
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
-
-.d-bloc .panel button:hover,
-.l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
+.col-sm-6 img{
+    width:270 px;
+    height:auto;
 }
 
 .l-bloc .icon-round,
@@ -264,6 +235,10 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
+.col-xs-12{
+    width: 567px;
+    height: 145px;
+}
 .voffset {
     margin-top: 30px;
 }
@@ -293,22 +268,20 @@ a:hover {
 }
 
 .navbar-brand {
-    height: auto;
-    padding: 3px 15px;
-    font-size: 25px;
-    font-weight: normal;
-    font-weight: 600;
-    line-height: 44px;
+    padding: 3px 15px;  
 }
 
+/*agencelapanthere-monochrome*/
 .navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
+        display: inline;
+        width: 300px;
+        height: auto;
 }
 
-.navbar-brand img[src$=svg] {
-    min-width: 100px;
+/* logo */
+center.block img{
+    width: 150px;
+    height: auto;
 }
 
 .nav-center .navbar-brand img {
@@ -819,7 +792,9 @@ h4 {
 
 .bg-banniere {
     background-image: url("img-compressed/agence-la-panthere.jpg");
-}
+    width: 100%;
+    }
+
 
 .bg-presentation {
     background-image: url("img-compressed/image-de-presentation.png");
