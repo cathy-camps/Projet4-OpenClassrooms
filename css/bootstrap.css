@@ -74,7 +74,6 @@ dfn {
 
 h1 {
     margin: .67em 0;
-    font-size: 2em
 }
 
 mark {
@@ -1486,7 +1485,7 @@ hr {
     cursor: pointer
 }
 
-.h1,
+/*.h1,
 .h2,
 .h3,
 .h4,
@@ -1531,7 +1530,7 @@ h6 small {
     font-weight: 400;
     line-height: 1;
     color: #777
-}
+}*/
 
 .h1,
 .h2,
@@ -1543,9 +1542,8 @@ h3 {
     margin-bottom: 10px
 }
 
-.h1 .small,
-.h1 small,
-.h2 .small,
+
+/*.h2 .small,
 .h2 small,
 .h3 .small,
 .h3 small,
@@ -1556,7 +1554,7 @@ h2 small,
 h3 .small,
 h3 small {
     font-size: 65%
-}
+}*/
 
 .h4,
 .h5,
@@ -1583,9 +1581,9 @@ h6 small {
     font-size: 75%
 }
 
-.h1,
+
 h1 {
-    font-size: 36px
+    font-size: 34px
 }
 
 .h2,
@@ -1650,7 +1648,8 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
+    font-size: 11px
 }
 
 .text-justify {
@@ -1849,10 +1848,9 @@ abbr[title] {
 }
 
 blockquote {
-    padding: 10px 20px;
     margin: 0 0 20px;
     font-size: 17.5px;
-    border-left: 5px solid #eee
+    border-left: 5px solid #ff9800;
 }
 
 blockquote ol:last-child,
@@ -4836,7 +4834,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    padding: 10px 15px;
+    color: #14165cde;
+    font-weight: bold;
 }
 
 .nav>li>a:focus,
@@ -5180,8 +5180,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-brand {
     float: left;
-    height: 50px;
-    padding: 15px 15px;
     font-size: 18px;
     line-height: 20px
 }

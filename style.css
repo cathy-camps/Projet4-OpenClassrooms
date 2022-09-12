@@ -40,10 +40,15 @@ a:hover {
 }
 
 .logo{
-    width: 120px;
-    height:120px;
+    width: 150px;
+    height:150px;
     margin-right: auto;
     margin-left: auto;
+}
+
+h1{
+    color: #14165cde;
+    margin-bottom: 30px;
 }
 
 /* title2.png*/
@@ -110,18 +115,19 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
+/*.texture-paper::before {
     background: url("img-compressed/texture-paper.png");
     background-size: 280px 280px;
-}
+}*/
 
 .b-parallax {
     background-attachment: fixed;
 }
 
+/*
 .d-bloc {
     color: rgba(255, 255, 255, .7);
-}
+}*/
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -139,7 +145,7 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn,
+/*.d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
@@ -154,9 +160,9 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
-}
+}*/
 
-.d-bloc .a-btn:hover,
+/*.d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
@@ -171,7 +177,7 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
-}
+}*/
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -195,7 +201,7 @@ a:hover {
     border-color: rgba(0, 0, 0, .1);
 }
 
-.d-bloc .panel .a-btn,
+/*.d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
@@ -229,7 +235,7 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
-}
+}*/
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
@@ -251,9 +257,13 @@ a:hover {
     margin-top: 30px;
 }
 
-.voffset-lg {
-    margin-top: 80px;
+blockquote p{
+    color: #14165cde;
 }
+
+/*.voffset-lg {
+    margin-top: 80px;
+}*/
 
 .row-no-gutters {
     margin-right: 0;
@@ -416,9 +426,16 @@ nav .caret {
     float: right;
 }
 
+.text-description{
+    font-size: 11px;
+    color:#14165cde;
+    text-align:justify;
+}
+
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 11px;
 }
 
 .mg-lg {
@@ -449,12 +466,13 @@ button {
     border-radius: 40px;
 }
 
+/*
 .btn-clean {
     border: 1px solid rgba(0, 0, 0, .08);
     border-bottom-color: rgba(0, 0, 0, .1);
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
-}
+}*/
 
 .icon-md {
     font-size: 30px!important;
@@ -622,14 +640,12 @@ a[data-lightbox]:hover img {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn,{
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -656,20 +672,20 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
-p {
-    font-size: 11px;
-}
-
+/*
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-}
+}*/
 
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
 }
+
+/*.text-description{
+font-size: 24px;
+}*/
 
 .cta-hero {
     margin-top: 22px;
@@ -691,7 +707,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -701,10 +717,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
 }
 
 h4 {
@@ -718,6 +730,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size:12px;
 }
 
 .portfolio-thumb {
@@ -729,38 +742,41 @@ h4 {
     margin-top: 50px;
 }
 
-.avatar {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
-}
-
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #14165cde;
     padding: 40px 40px 40px 40px;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+    text-align: center;
 }
 
 .bgc-white {
     background-color: #FFFFFF;
 }
 
+/*
 .bgc-dark-slate-blue {
     background-color: #364577;
-}
+}*/
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FF9800;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FF9800!important;
+    font-size: 20px;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #ff9800;
     color: #FFFFFF!important;
 }
 
