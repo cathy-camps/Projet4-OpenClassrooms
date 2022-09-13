@@ -426,10 +426,10 @@ nav .caret {
     float: right;
 }
 
-.text-description{
-    font-size: 11px;
+.text-presentation{
+    font-size: 26px;
     color:#14165cde;
-    text-align:justify;
+    text-align:center;
 }
 
 .mg-md {
@@ -475,7 +475,7 @@ button {
 }*/
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 36px!important;
 }
 
 .icon-lg {
@@ -527,6 +527,13 @@ button {
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
+}
+
+.col-sm-6{
+    width: 270px;
+    height: 270px;
+    margin-left: 180px;
+    margin-bottom: 80px;
 }
 
 a[data-lightbox] {
@@ -728,9 +735,10 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
-    font-size:12px;
+footer .white {
+    color: #14165cde !important;
+    font-size: 24px;
+    margin-bottom: 30px;
 }
 
 .portfolio-thumb {
@@ -772,12 +780,13 @@ h4 {
 
 .tc-white {
     color: #FF9800!important;
-    font-size: 20px;
+    font-size: 28px;
+    margin-top: 30px;
 }
 
 .btn-atomic-tangerine {
     background: #ff9800;
-    color: #FFFFFF!important;
+    color: #14165cde !important;   
 }
 
 .btn-atomic-tangerine:hover {
