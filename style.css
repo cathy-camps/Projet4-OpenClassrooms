@@ -18,14 +18,14 @@ a:hover {
     cursor: pointer;
 }
 
-/*#page-loading-blocs-notifaction {
+#page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}*/
+}
 
 .bloc {
     width: 100%;
@@ -40,8 +40,8 @@ a:hover {
 }
 
 .logo{
-    width: 150px;
-    height:150px;
+    width: 300px;
+    height: auto;
     margin-right: auto;
     margin-left: auto;
 }
@@ -257,8 +257,13 @@ h1{
     margin-top: 30px;
 }
 
+blockquote {
+    margin-left: 80px;
+}
+
 blockquote p{
     color: #14165cde;
+    margin-left: 20px;
 }
 
 /*.voffset-lg {
@@ -645,17 +650,15 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
 h2,
 h4,
 h5,
 h6,
-p,
 label,
-.btn,{
+.btn{
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -775,18 +778,24 @@ footer .white {
 }*/
 
 .bgc-atomic-tangerine {
-    background-color: #FF9800;
+    background-color: #f78d7a;
 }
 
 .tc-white {
-    color: #FF9800!important;
+    color: #f78d7a;
     font-size: 28px;
     margin-top: 30px;
+    background-color: #14165cde;
+}
+
+.mg-md {
+color: #f78d7a;;
+background-color: transparent;
 }
 
 .btn-atomic-tangerine {
-    background: #ff9800;
-    color: #14165cde !important;   
+    background: #f78d7a;
+    color: #050633de !important;   
 }
 
 .btn-atomic-tangerine:hover {
