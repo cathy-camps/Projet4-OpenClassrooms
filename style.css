@@ -40,15 +40,18 @@ a:hover {
 }
 
 .logo{
-    width: 300px;
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1{
     color: #14165cde;
-    margin-bottom: 30px;
+    background-color: #f78d7a;
+    font-size: 36px;
+    font-family: Open Sans;
+    padding:10px;
+    margin:50px 0px 30px;
 }
 
 /* title2.png*/
@@ -281,9 +284,9 @@ blockquote p{
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
-    font-size: 32px;
-}
+/*#bloc-1-hero h1 {
+    font-size: 36px;
+}*/
 
 .navbar {
     margin-bottom: 0;
@@ -440,7 +443,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .mg-lg {
@@ -658,7 +661,7 @@ label,
 .btn{
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757;
+    color:#14165cde;
 }
 
 .container {
@@ -688,10 +691,10 @@ label,
     margin: auto auto auto auto;
 }*/
 
-.h1 {
+/*.h1 {
     font-size: 20px;
     font-family: "Open Sans";
-}
+}*/
 
 /*.text-description{
 font-size: 24px;
@@ -712,8 +715,11 @@ font-size: 24px;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 28px;
     line-height: 1.4em;
+    width:540px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h3 {
@@ -784,7 +790,7 @@ footer .white {
 .tc-white {
     color: #f78d7a;
     font-size: 28px;
-    margin-top: 30px;
+    margin-top: 22px;
     background-color: #14165cde;
 }
 
@@ -795,7 +801,7 @@ background-color: transparent;
 
 .btn-atomic-tangerine {
     background: #f78d7a;
-    color: #050633de !important;   
+    color: #14165cde !important;   
 }
 
 .btn-atomic-tangerine:hover {
@@ -836,6 +842,9 @@ background-color: transparent;
     background-image: url("img-compressed/agence-la-panthere.jpg");
     width: 100%;
     height:550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     }
 
 
