@@ -302,6 +302,7 @@ blockquote p{
         display: inline;
         width: 300px;
         height: auto;
+        margin-left: -100px;
 }
 
 /* logo */
@@ -726,7 +727,7 @@ h3 {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #14165cde;
 }
 
 .med-width-whitespace {
