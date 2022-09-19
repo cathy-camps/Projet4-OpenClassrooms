@@ -46,7 +46,7 @@ a:hover {
 }
 
 h1{
-    color: #14165cde;
+    color: #091536;
     background-color: #f78d7a;
     font-size: 36px;
     font-family: Open Sans;
@@ -187,7 +187,7 @@ h1{
 }
 
 .col-sm-6 img{
-    width:270 px;
+    width:100%;
     height:auto;
 }
 
@@ -265,7 +265,7 @@ blockquote {
 }
 
 blockquote p{
-    color: #14165cde;
+    color: #091536;
     margin-left: 20px;
 }
 
@@ -437,7 +437,7 @@ nav .caret {
 
 .text-presentation{
     font-size: 26px;
-    color:#14165cde;
+    color:#091536;
     text-align:center;
 }
 
@@ -662,7 +662,7 @@ label,
 .btn{
     font-family: "helvetica";
     font-weight: 400;
-    color:#14165cde;
+    color:#091536;
 }
 
 .container {
@@ -723,11 +723,15 @@ h2 {
     margin-right: auto;
 }
 
+#bloc-text{
+color: #f78d7a;
+}
+
 h3 {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #14165cde;
+    color: #091536;
 }
 
 .med-width-whitespace {
@@ -746,7 +750,7 @@ h4 {
 }
 
 footer .white {
-    color: #14165cde !important;
+    color: #091536;
     font-size: 24px;
     margin-bottom: 30px;
 }
@@ -761,7 +765,7 @@ footer .white {
 }
 
 .black-background {
-    background-color: #14165cde;
+    background-color: #091536;
     padding: 40px 40px 40px 40px;
     width: 700px;
     margin-right: auto;
@@ -792,21 +796,21 @@ footer .white {
     color: #f78d7a;
     font-size: 28px;
     margin-top: 22px;
-    background-color: #14165cde;
+    background-color: #091536;
 }
 
 .mg-md {
-color: #f78d7a;;
+color: #091536;
 background-color: transparent;
 }
 
 .btn-atomic-tangerine {
     background: #f78d7a;
-    color: #14165cde !important;   
+    color: #091536 !important;   
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #f78d7a !important;
     color: #FFFFFF!important;
 }
 
@@ -819,11 +823,11 @@ background-color: transparent;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #f78d7a !important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #f78d7a !important;
 }
 
 .icon-dark-slate-blue {
@@ -842,7 +846,7 @@ background-color: transparent;
 .bg-banniere {
     background-image: url("img-compressed/agence-la-panthere.jpg");
     width: 100%;
-    height:550px;
+    height:auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -851,6 +855,8 @@ background-color: transparent;
 
 .bg-presentation {
     background-image: url("img-compressed/image-de-presentation.png");
+    width: 100%;
+    height:auto;
 }
 
 @media (max-width: 1024px) {
