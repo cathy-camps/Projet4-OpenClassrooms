@@ -736,7 +736,9 @@ background-color: transparent;
 }
 
 .bg-dots-bg {
-    background-image: url("img-compressed/dots-bg.png");
+    background-image: url("img-compressed/lines-h2-bg.png");
+    width:2020px;
+    height:300px;
 }
 
 .bg-lines-h2-bg {
