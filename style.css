@@ -123,19 +123,9 @@ h1{
     right: 0;
 }
 
-/*.texture-paper::before {
-    background: url("img-compressed/texture-paper.png");
-    background-size: 280px 280px;
-}*/
-
 .b-parallax {
     background-attachment: fixed;
 }
-
-/*
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}*/
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -153,39 +143,6 @@ h1{
     border-color: rgba(255, 255, 255, .2);
 }
 
-/*.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-    color: rgba(255, 255, 255, .6);
-}*/
-
-/*.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
-}*/
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -203,42 +160,6 @@ h1{
 .l-bloc .divider-h span {
     border-color: rgba(0, 0, 0, .1);
 }
-
-/*.d-bloc .panel .a-btn,
-.l-bloc .a-btn,
-.l-bloc .navbar a,
-.l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
-.l-bloc a .icon-md,
-.l-bloc a .icon-lg,
-.l-bloc a .icon-xl,
-.l-bloc h1 a,
-.l-bloc h2 a,
-.l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
-.l-bloc p a {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .a-btn:hover,
-.l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
-}*/
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
@@ -475,14 +396,6 @@ button {
     border-radius: 40px;
 }
 
-/*
-.btn-clean {
-    border: 1px solid rgba(0, 0, 0, .08);
-    border-bottom-color: rgba(0, 0, 0, .1);
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
-}*/
-
 .icon-md {
     font-size: 36px!important;
 }
@@ -686,20 +599,6 @@ label,
     max-width: 520px;
     margin: auto auto auto auto;
 }
-/*
-.tight-width-whitespace {
-    max-width: 600px;
-    margin: auto auto auto auto;
-}*/
-
-/*.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-}*/
-
-/*.text-description{
-font-size: 24px;
-}*/
 
 .cta-hero {
     margin-top: 22px;
@@ -756,7 +655,7 @@ footer .white {
 }
 
 .portfolio-thumb {
-    width: 100%;
+    width: 240px;
     height:auto;
 }
 
@@ -846,8 +745,8 @@ background-color: transparent;
 
 .bg-banniere {
     background-image: url("img-compressed/agence-la-panthere.jpg");
-    width: 100%;
-    height:auto;
+    width: 1930px;
+    height:545px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -856,8 +755,8 @@ background-color: transparent;
 
 .bg-presentation {
     background-image: url("img-compressed/image-de-presentation.jpg");
-    width: 100%;
-    height:auto;
+    width:1930px;
+    height: 677px;
 }
 
 @media (max-width: 1024px) {
