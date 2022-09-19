@@ -76,6 +76,11 @@ h1{
     padding: 100px 50px;
 }
 
+.center-bloc{
+    width: 100%;
+    height: auto;
+}
+
 .bloc-md {
     padding: 50px;
 }
@@ -184,11 +189,6 @@ h1{
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
-}
-
-.col-sm-6 img{
-    width:100%;
-    height:auto;
 }
 
 .l-bloc .icon-round,
@@ -756,7 +756,8 @@ footer .white {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    width: 100%;
+    height:auto;
 }
 
 .portfolio-row {
